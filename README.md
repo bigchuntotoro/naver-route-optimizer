@@ -1,4 +1,9 @@
-네이버 Directions API와 Python을 활용한 실시간 맛집/관광지 최적 동선 추천 시스템
+🗺️ naver-route-optimizer
+
+네이버 지도 API 기반 최적 이동 경로 추천 시스템
+
+Python + Streamlit + Naver Maps API를 활용하여 여러 장소의 주소를 입력하면
+각 장소 간 이동 시간/거리를 계산하고, 최소 이동 시간 기준의 최적 방문 순서를 추천하는 프로젝트입니다.
 
 🏗️ 전체 프로젝트 디렉토리 구조
 
@@ -65,6 +70,25 @@ naver-route-optimizer/
 │ 4. 시각화 & UI (app/app.py & map_view.py)   │ ──> Folium 지도로 최적 경로 마커/선 시각화
 └─────────────────────────────────────────────┘
 ```
+
+🛠️ 개발 환경
+Language
+Python 3.12+
+Framework
+Streamlit
+API
+Naver Cloud Platform Maps API
+
+사용 API:
+
+Geocoding API
+Directions API
+Library
+requests
+streamlit
+folium
+streamlit-folium
+python-dotenv
 
 서버기동
 
