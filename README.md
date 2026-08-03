@@ -69,7 +69,9 @@ naver-route-optimizer/
 ┌─────────────────────────────────────────────┐
 │ 4. 시각화 & UI (app/app.py & map_view.py)   │ ──> Folium 지도로 최적 경로 마커/선 시각화
 └─────────────────────────────────────────────┘
+```
 
+```text
 🛠️ 개발 환경
 Language
 Python 3.12+
@@ -79,7 +81,6 @@ API
 Naver Cloud Platform Maps API
 
 사용 API:
-
 Geocoding API
 Directions API
 Library
