@@ -1,0 +1,143 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# pip
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / Packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+
+# Environment / Secrets
+
+# =========================
+
+# API Key, Secret
+
+.env
+.env.*
+!.env.example
+
+# Naver Cloud API Key
+
+*.key
+*.pem
+
+# =========================
+
+# IDE
+
+# =========================
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+
+# =========================
+
+# Streamlit
+
+# =========================
+
+.streamlit/secrets.toml
+
+# =========================
+
+# Cache / Temporary Data
+
+# =========================
+
+.cache/
+cache/
+data/cache/
+
+*.log
+logs/
+
+# =========================
+
+# Database
+
+# =========================
+
+*.sqlite3
+*.db
+
+# =========================
+
+# OS
+
+# =========================
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# macOS
+
+.DS_Store
+
+# =========================
+
+# Test / Coverage
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+
+# Jupyter
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Project Data
+
+# =========================
+
+# 개인정보 포함 가능 데이터
+
+data/*.json
+data/*.csv
+
+# 샘플 데이터는 Git 관리
+
+!data/sample_places.json
