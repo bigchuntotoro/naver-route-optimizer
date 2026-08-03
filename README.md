@@ -69,7 +69,6 @@ naver-route-optimizer/
 ┌─────────────────────────────────────────────┐
 │ 4. 시각화 & UI (app/app.py & map_view.py)   │ ──> Folium 지도로 최적 경로 마커/선 시각화
 └─────────────────────────────────────────────┘
-```
 
 🛠️ 개발 환경
 Language
@@ -91,8 +90,6 @@ streamlit-folium
 python-dotenv
 
 서버기동
-
-```text
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
