@@ -67,7 +67,10 @@ naver-route-optimizer/
 ```
 
 서버기동
+
+```text
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app/app.py
+```
